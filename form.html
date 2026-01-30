@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server" height="auto" width="50px" style="border: 2px dashed black;">
+    <h3>Sign_in form</h3>
+    <label for="nm">Name      : </label>
+    <input type="text" id="nm" name="name" placeholder="username" required maxlength="50"><br>
+    <label for="age">Age  :   </label>
+    <input type="number" id="age" name="age" placeholder="age"><br>
+    <label>Gender : </label>
+    <input type="radio" id="gender1" name="gender">
+    <label for="gender1">Male</label>
+    <input type="radio" id="gender2" name="gender">
+    <label for="gander2">Female</label>
+    <input type="radio" id="gender3" name="gender">
+    <label for="gender3">Other</label><br>
+    <label for="email">Email : </label>
+    <input type="email" id="name" name="email" placeholder="Example@gmail.com" required><br>
+    <label for="ph">Ph-no : </label>
+    <input type="number" id="ph" name="ph-number" placeholder="+920000000"><br>
+    <label for="ps">Password : </label>
+    <input type="password" id="ps" name="password"><br>
+    <label for="cps">Confirm password : </label>
+    <input type="password" id="cps" name="conf-password"><br>
+    <label for="adrs" style="margin-bottom: 30px;">Address</label>
+    <textarea name="address" id="adrs" maxlength="80">permanent address</textarea><br>
+
+    <label for="crs">Select your course</label>
+    <select name="crs" id="crs">
+        <option value="CS">Computer Science</option>
+        <option value="AI">Artificial intelligence</option>
+        <option value="DB">Data Base</option>
+    </select>
+    <br>
+    <button>Submit</button>
+    </form>
+</body>
+</html>
